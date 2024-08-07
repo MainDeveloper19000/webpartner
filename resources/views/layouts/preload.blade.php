@@ -4,25 +4,31 @@
         </div>
         <div class="txt-loading">
             <span data-text-preloader="H" class="letters-loading">
-                H
+                B
             </span>
             <span data-text-preloader="O" class="letters-loading">
-                O
+                L
             </span>
             <span data-text-preloader="S" class="letters-loading">
-                S
+                U
             </span>
             <span data-text-preloader="T" class="letters-loading">
-                T
-            </span>
-            <span data-text-preloader="E" class="letters-loading">
                 E
             </span>
+            <span data-text-preloader="E" class="letters-loading">
+                P
+            </span>
             <span data-text-preloader="C" class="letters-loading">
-                C
+                R
             </span>
             <span data-text-preloader="H" class="letters-loading">
-                H
+                I
+            </span>
+            <span data-text-preloader="H" class="letters-loading">
+                N
+            </span>
+            <span data-text-preloader="H" class="letters-loading">
+                T
             </span>
         </div>
         <p class="text-center">Loading</p>

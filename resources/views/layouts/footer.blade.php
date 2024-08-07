@@ -6,7 +6,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div class="single-footer-widget">
                                 <div class="widget-head">
-                                    <a href="index.html">
+                                    <a href="{{url('/')}}">
                                     <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                                     </a>
                                 </div>
@@ -46,7 +46,7 @@
                                 </div>
                                 <ul class="list-area">
                                     <li>
-                                        <a href="about.html">
+                                        <a href="{{url('/about')}}">
                                         <i class="fa-regular fa-chevrons-right"></i>
                                         Hostech About
                                         </a>
@@ -187,7 +187,7 @@
                 <div class="container">
                     <div class="footer-wrapper d-flex align-items-center justify-content-between">
                         <p class="wow fadeInLeft" data-wow-delay=".3s">
-                            © All Copyright 2024 by <a href="index.html">Hostech</a>
+                            © All Copyright 2024 by <a href="{{url('/')}}">Hostech</a>
                         </p>
                         <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
                             <li>

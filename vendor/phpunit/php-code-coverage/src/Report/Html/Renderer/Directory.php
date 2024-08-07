@@ -91,7 +91,7 @@ final class Directory extends Renderer
 
             if ($node instanceof DirectoryNode) {
                 $data['name'] = sprintf(
-                    '<a href="%s/index.html">%s</a>',
+                    '<a href="%s/{{url('/')}}">%s</a>',
                     $node->name(),
                     $node->name(),
                 );
