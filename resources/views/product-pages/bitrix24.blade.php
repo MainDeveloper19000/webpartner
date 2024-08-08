@@ -274,10 +274,10 @@
                     <div class="hero-content">
                         <span class="sub-text-2 wow fadeInUp">
                             <img src="assets/img/hero/activity.png" alt="img" class="me-2">
-                            Affiliate Program
+                            Bussiness Development Sofware
                         </span>
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                            Hostech Web Hosting Affiliate Program
+                            Bitrix24. Your ultimate workspace.
                         </h1>
                         <a href="pricing.html" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
                             view plan <i class="fas fa-long-arrow-alt-right"></i>
@@ -286,7 +286,7 @@
                 </div>
                 <div class="col-lg-3 wow fadeInUp" data-wow-delay=".4s">
                     <div class="hero-image">
-                        <img src="assets/img/breadcrumb.png" alt="img">
+                        <img src="assets/img/bitrix24.png" alt="img"  width="888.89" height="500">
                     </div>
                 </div>
             </div>
@@ -298,47 +298,66 @@
         <div class="container">
             <div class="feature-wrapper-2">
                 <div class="row g-4">
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" style="flex: 0 0 20%;">
                         <div class="feature-card-items">
                             <div class="icon">
-                                <img src="assets/img/feature-icon/icon-1.png" alt="img">
+                                <img src="assets/img/feature-icon/collaboration.png" alt="img" height="50" width="50">
                             </div>
                             <div class="content">
-                                <h3>Maximum Performance</h3>
-                                <p>Collaboratively formulate principle capital progressively evolve</p>
+                                <h3>Collaboration</h3>
+                                <p>Bitrix24 features everything you need for productive team collaboration and
+                                    communication: chat, online meetings, tasks, calendar, file storage, online
+                                    documents, workflow automation, and more.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s" style="flex: 0 0 20%;">
                         <div class="feature-card-items">
                             <div class="icon">
-                                <img src="assets/img/feature-icon/icon-2.png" alt="img">
+                                <img src="assets/img/feature-icon/crm.png" alt="img" height="50" width="50">
                             </div>
                             <div class="content">
-                                <h3>Maximum Data Transfer</h3>
-                                <p>Collaboratively formulate principle capital progressively evolve</p>
+                                <h3>CRM</h3>
+                                <p>Bitrix24 CRM has everything you need to acquire leads, turn them into deals, receive
+                                    payments, manage inventory, e-sign documents, run marketing campaigns, increase
+                                    customer engagement, grow customer retention, track sales metrics, and more.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s" style="flex: 0 0 20%;">
                         <div class="feature-card-items">
                             <div class="icon">
-                                <img src="assets/img/feature-icon/icon-3.png" alt="img">
+                                <img src="assets/img/feature-icon/task-management.png" alt="img" height="50" width="50">
                             </div>
                             <div class="content">
-                                <h3>Super Easy To Use</h3>
-                                <p>Collaboratively formulate principle capital progressively evolve</p>
+                                <h3>Task And Projects</h3>
+                                <p>Bitrix24 features all the popular task management tools as a part of a single
+                                    platform – pick the ones you’re most comfortable with and start getting work done
+                                    together with your team.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s" style="flex: 0 0 20%;">
                         <div class="feature-card-items">
                             <div class="icon">
-                                <img src="assets/img/feature-icon/icon-4.png" alt="img">
+                                <img src="assets/img/feature-icon/online-shopping.png" alt="img" height="60" width="60">
                             </div>
                             <div class="content">
-                                <h3>Maximum Security</h3>
-                                <p>Collaboratively formulate principle capital progressively evolve</p>
+                                <h3>Sites & Stores</h3>
+                                <p>Use our intuitive, no-code website builder to create beautiful sites, landing pages,
+                                    and online stores that are fully integrated with Bitrix24 CRM and online marketing
+                                    tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s" style="flex: 0 0 20%;">
+                        <div class="feature-card-items">
+                            <div class="icon">
+                                <img src="assets/img/feature-icon/HR & Automation.png" alt="img" height="50" width="50">
+                            </div>
+                            <div class="content">
+                                <h3>HR & Automation</h3>
+                                <p>Bitrix24 is a highly scalable workspace solution that features everything you need to run a team of 5, 50, 500, or 5,000 while maintaining top productivity at all times.</p>
                             </div>
                         </div>
                     </div>
@@ -346,6 +365,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Feature Section Start -->
     <section class="feature-hosting-section fix section-padding">

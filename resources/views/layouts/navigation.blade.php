@@ -50,7 +50,7 @@
                                                                     
                                                             </div>
                                                             <div class="content">
-                                                                <h6><a href="{{url('/')}}">Bitrix24</a></h6>
+                                                                <h6><a href="{{route('partner.bitrix24')}}">Bitrix24</a></h6>
                                                                 <p>
                                                                     Bitrix24. Your ultimate workspace.
                                                                 </p>
@@ -61,7 +61,7 @@
                                                                 <img src="assets/img/menu-icon/respond.png" alt="img"  height="35px" height="35px" >
                                                             </div>
                                                             <div class="content">
-                                                                <h6><a href="index-2.html"> Respond.io</a></h6>
+                                                                <h6><a href="{{route('partner.respond')}}"> Respond.io</a></h6>
                                                                 <p>
                                                                     AI-Powered Customer Conversation.
                                                                 </p>
@@ -72,7 +72,7 @@
                                             </ul>
                                         </li>
                                         <li class="has-dropdown menu-thumb">
-                                            <a href="news.html">
+                                            <a href="#">
                                                 Industries
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
@@ -145,7 +145,7 @@
                                                                     <div class="content">
                                                                         <h6><a href="#">Automotive</a></h6>
                                                                         <p>
-                                                                            Shift customer journeys into high gear
+                                                                            Shift customer journeys.....
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -160,7 +160,7 @@
                                                                         <h6><a href="data-center.html">Healthcare</a>
                                                                         </h6>
                                                                         <p>
-                                                                            Healthier patient engagements over chat
+                                                                            Healthier patient engagements...
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -344,30 +344,26 @@
                                                 <li><a href="cloud-hosting.html">Cloud Hosting</a></li>
                                             </ul>
                                         </li>
-                                        {{-- <li>
-                                            <a href="doming.html">Doming</a>
-                                        </li> --}}
-                                        {{-- <li>
+                                        <li>
                                             <a href="news.html">
-                                                News
+                                                Partnerships
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="news-grid.html">News Grid</a></li>
-                                                <li><a href="news.html">News List</a></li>
-                                                <li><a href="news-details.html">News Details</a></li>
+                                                <li><a href="#Bitirx24 Gold Partner">Bitirx24 Gold Partner</a></li>
+                                                <li><a href="#Respond.io Gold Partner">Respond.io Gold Partner</a></li>                           
                                             </ul>
-                                        </li> --}}
+                                        </li>
                                         <li>
-                                            <a href="contact.html">
+                                            <a href="#">
                                                 Help Center
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="faq.html">Faq</a></li>
-                                                <li><a href="404.html">About</a></li>
-                                                <li><a href="support.html">Support</a></li>
-                                                <li><a href="contact.html">Contact Us</a></li>
+                                                <li><a href="{{route('help_center.faq')}}">Faq</a></li>
+                                                <li><a href="{{route('help_center.about')}}">About</a></li>
+                                                <li><a href="{{route('help_center.support')}}">Support</a></li>
+                                                <li><a href="{{route('help_center.contact')}}">Contact Us</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -381,7 +377,7 @@
                             </div>
                         </div> --}}
                         <div class="header-button">
-                            <a href="contact.html" class="theme-btn">
+                            <a href="{{route('help_center.contact')}}" class="theme-btn">
                                 get Started
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>

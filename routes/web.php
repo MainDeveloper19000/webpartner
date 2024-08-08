@@ -20,13 +20,18 @@ use App\Http\Controllers\Fronted\MasterController;
 
 route::controller(MasterController::class)->group(function(){
     route::get('/','index')->name('home');
-    route::get('/about','about_us')->name('page.about');
-    route::get('/404','error404')->name('page.error404');
+   
+   
     route::get('/service','service')->name('page.service');
-    route::get('/contact','contacts')->name('page.contact');
-    route::get('/support','support')->name('page.support');
+  
     route::get('/bitrix24-partner','bitrix24')->name('partner.bitrix24');
     route::get('/respond-partner','respond')->name('partner.respond');
+
+    // Help Center navogation 
+    route::get('/faq','faq')->name('help_center.faq');
+    route::get('/about','about_us')->name('help_center.about');
+    route::get('/support','support')->name('help_center.support');
+    route::get('/contact','contacts')->name('help_center.contact');
 });
 
 Route::fallback(function () {
